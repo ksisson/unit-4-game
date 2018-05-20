@@ -1,0 +1,75 @@
+.paragraph-holder{
+    background: #00FFFF;
+    width: 700px;
+}
+h1{
+    width: 700px;
+    background: #007F7F;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    padding: 30px 0px;
+}
+
+p{
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+p:first-child{
+    margin-top: 0;
+}
+p:last-child{
+    margin-bottom: 0;
+}
+.crystals{
+    width: 700px;
+    height: 175px;
+    background: black;
+}
+img{
+    height: auto;
+    margin: 0;
+    padding: 0;
+    width: 173px;
+    display: inline-block;
+    border: solid 1px black;
+    
+    
+}
+.wrapper{
+    width: 700px;
+    background: black;
+   
+}
+
+.scorebox{
+    padding: 4px 0;
+    display: inline-block;
+    vertical-align: top;
+    width: 350px;
+    height: 100px;
+    background: #00CCCC;
+    text-align: center;
+    font-size: 30px;
+}
+.scoretracker{
+    padding: 4px 0;
+    display: inline-block;
+    text-align: center;
+    width: 350px;
+    height: 100px;
+    background: #D1FFFF;
+    font-size: 30px;
+}
+.totalscore{
+    text-align: center;
+    padding-top: 4px;
+    background: #D1FFFF;
+    width: 350px;
+    height: 100px;
+    font-size: 30px;
+}
+#targetscore{
+    font-size: 40px;
+}
